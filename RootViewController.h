@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  WordPlay
 //
 //  Created by Alexander Nelson on 1/26/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RootViewController : UIViewController
 
 @end
-

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		5B82FE861C58283900BD3D25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FE851C58283900BD3D25 /* main.m */; };
 		5B82FE891C58283900BD3D25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FE881C58283900BD3D25 /* AppDelegate.m */; };
-		5B82FE8C1C58283900BD3D25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FE8B1C58283900BD3D25 /* ViewController.m */; };
 		5B82FE8F1C58283900BD3D25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B82FE8D1C58283900BD3D25 /* Main.storyboard */; };
 		5B82FE911C58283900BD3D25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B82FE901C58283900BD3D25 /* Assets.xcassets */; };
 		5B82FE941C58283900BD3D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B82FE921C58283900BD3D25 /* LaunchScreen.storyboard */; };
 		5B82FE9F1C58283900BD3D25 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FE9E1C58283900BD3D25 /* WordPlayTests.m */; };
 		5B82FEAA1C58283900BD3D25 /* WordPlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEA91C58283900BD3D25 /* WordPlayUITests.m */; };
+		5B82FEB91C58295600BD3D25 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEB81C58295600BD3D25 /* EnterNameViewController.m */; };
+		5B82FEBC1C582A6000BD3D25 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEBB1C582A6000BD3D25 /* EnterAdjectiveViewController.m */; };
+		5B82FEBF1C582ADE00BD3D25 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEBE1C582ADE00BD3D25 /* ResultsViewController.m */; };
+		5B82FEC21C582B0C00BD3D25 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEC11C582B0C00BD3D25 /* RootViewController.m */; };
+		5B82FEC51C5AB66400BD3D25 /* EnterVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEC41C5AB66400BD3D25 /* EnterVerbViewController.m */; };
+		5B82FEC81C5AB66F00BD3D25 /* EnterAdverbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82FEC71C5AB66F00BD3D25 /* EnterAdverbViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		5B82FE851C58283900BD3D25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B82FE871C58283900BD3D25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B82FE881C58283900BD3D25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B82FE8A1C58283900BD3D25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B82FE8B1C58283900BD3D25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B82FE8E1C58283900BD3D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B82FE901C58283900BD3D25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B82FE931C58283900BD3D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,18 @@
 		5B82FEA51C58283900BD3D25 /* WordPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B82FEA91C58283900BD3D25 /* WordPlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayUITests.m; sourceTree = "<group>"; };
 		5B82FEAB1C58283900BD3D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B82FEB71C58295600BD3D25 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		5B82FEB81C58295600BD3D25 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		5B82FEBA1C582A6000BD3D25 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		5B82FEBB1C582A6000BD3D25 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		5B82FEBD1C582ADE00BD3D25 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		5B82FEBE1C582ADE00BD3D25 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		5B82FEC01C582B0C00BD3D25 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		5B82FEC11C582B0C00BD3D25 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		5B82FEC31C5AB66400BD3D25 /* EnterVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterVerbViewController.h; sourceTree = "<group>"; };
+		5B82FEC41C5AB66400BD3D25 /* EnterVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterVerbViewController.m; sourceTree = "<group>"; };
+		5B82FEC61C5AB66F00BD3D25 /* EnterAdverbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdverbViewController.h; sourceTree = "<group>"; };
+		5B82FEC71C5AB66F00BD3D25 /* EnterAdverbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdverbViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +118,18 @@
 			children = (
 				5B82FE871C58283900BD3D25 /* AppDelegate.h */,
 				5B82FE881C58283900BD3D25 /* AppDelegate.m */,
-				5B82FE8A1C58283900BD3D25 /* ViewController.h */,
-				5B82FE8B1C58283900BD3D25 /* ViewController.m */,
+				5B82FEBA1C582A6000BD3D25 /* EnterAdjectiveViewController.h */,
+				5B82FEBB1C582A6000BD3D25 /* EnterAdjectiveViewController.m */,
+				5B82FEC61C5AB66F00BD3D25 /* EnterAdverbViewController.h */,
+				5B82FEC71C5AB66F00BD3D25 /* EnterAdverbViewController.m */,
+				5B82FEB71C58295600BD3D25 /* EnterNameViewController.h */,
+				5B82FEB81C58295600BD3D25 /* EnterNameViewController.m */,
+				5B82FEC31C5AB66400BD3D25 /* EnterVerbViewController.h */,
+				5B82FEC41C5AB66400BD3D25 /* EnterVerbViewController.m */,
+				5B82FEBD1C582ADE00BD3D25 /* ResultsViewController.h */,
+				5B82FEBE1C582ADE00BD3D25 /* ResultsViewController.m */,
+				5B82FEC01C582B0C00BD3D25 /* RootViewController.h */,
+				5B82FEC11C582B0C00BD3D25 /* RootViewController.m */,
 				5B82FE8D1C58283900BD3D25 /* Main.storyboard */,
 				5B82FE901C58283900BD3D25 /* Assets.xcassets */,
 				5B82FE921C58283900BD3D25 /* LaunchScreen.storyboard */,
@@ -270,9 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B82FE8C1C58283900BD3D25 /* ViewController.m in Sources */,
 				5B82FE891C58283900BD3D25 /* AppDelegate.m in Sources */,
+				5B82FEC51C5AB66400BD3D25 /* EnterVerbViewController.m in Sources */,
+				5B82FEBC1C582A6000BD3D25 /* EnterAdjectiveViewController.m in Sources */,
+				5B82FEC21C582B0C00BD3D25 /* RootViewController.m in Sources */,
+				5B82FEBF1C582ADE00BD3D25 /* ResultsViewController.m in Sources */,
+				5B82FEB91C58295600BD3D25 /* EnterNameViewController.m in Sources */,
 				5B82FE861C58283900BD3D25 /* main.m in Sources */,
+				5B82FEC81C5AB66F00BD3D25 /* EnterAdverbViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +526,7 @@
 				5B82FEB01C58283900BD3D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B82FEB11C58283900BD3D25 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				5B82FEB31C58283900BD3D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B82FEB41C58283900BD3D25 /* Build configuration list for PBXNativeTarget "WordPlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +544,7 @@
 				5B82FEB61C58283900BD3D25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
